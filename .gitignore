@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Private images — never track
-src/assets/GalleryImg/
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
