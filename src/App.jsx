@@ -8,7 +8,6 @@ import Loader      from "./components/Loader/Loader";
 import BackToTop   from "./components/BackToTop/BackToTop";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
 import CookieBanner from "./components/CookieBanner/CookieBanner";
-import NotePopup   from "./components/NotePopup/NotePopup";
 
 import Intro        from "./pages/Intro";
 import Gallery      from "./pages/Gallery";
@@ -109,7 +108,6 @@ export default function App() {
       <Footer />
       <BackToTop />
       <CookieBanner />
-      {/* <NotePopup /> */}
     </div>
   );
 }
