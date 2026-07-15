@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sonikaescort.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en-au" href="https://sonikaescort.com/"/>
+    <priority>1.0</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://sonikaescort.com/intro</loc>
+    <xhtml:link rel="alternate" hreflang="en-au" href="https://sonikaescort.com/intro"/>
+    <priority>0.9</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://sonikaescort.com/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="en-au" href="https://sonikaescort.com/gallery"/>
+    <priority>0.8</priority><changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://sonikaescort.com/rates</loc>
+    <xhtml:link rel="alternate" hreflang="en-au" href="https://sonikaescort.com/rates"/>
+    <priority>0.9</priority><changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://sonikaescort.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en-au" href="https://sonikaescort.com/contact"/>
+    <priority>0.9</priority><changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://sonikaescort.com/screening</loc>
+    <xhtml:link rel="alternate" hreflang="en-au" href="https://sonikaescort.com/screening"/>
+    <priority>0.7</priority><changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://sonikaescort.com/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en-au" href="https://sonikaescort.com/faq"/>
+    <priority>0.7</priority><changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://sonikaescort.com/availability</loc>
+    <xhtml:link rel="alternate" hreflang="en-au" href="https://sonikaescort.com/availability"/>
+    <priority>0.8</priority><changefreq>weekly</changefreq>
+  </url>
+</urlset>
