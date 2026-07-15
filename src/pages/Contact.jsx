@@ -22,7 +22,7 @@ export default function Contact() {
 
       <div className="contact-grid reveal" ref={card}>
 
-        <div className="contact-card">
+        {/* <div className="contact-card">
           <span className="contact-icon">💬</span>
           <h4>WhatsApp</h4>
           <p>My preferred method of contact. Quick, private, and direct.</p>
@@ -32,7 +32,7 @@ export default function Contact() {
           <a href={TG_URL} target="_blank" rel="noopener noreferrer" className="contact-btn contact-btn-tg">
             Message on Telegram
           </a>
-        </div>
+        </div> */}
 
         <div className="contact-card">
           <span className="contact-icon">✦</span>
