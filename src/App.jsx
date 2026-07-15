@@ -109,7 +109,7 @@ export default function App() {
       <Footer />
       <BackToTop />
       <CookieBanner />
-      <NotePopup />
+      {/* <NotePopup /> */}
     </div>
   );
 }

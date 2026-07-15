@@ -23,7 +23,7 @@ export default function NotePopup() {
 
   return (
     <div className="note-popup">
-      <button className="note-close" onClick={dismiss}>✕</button>
+      {/* <button className="note-close" onClick={dismiss}>✕</button>
       <div className="note-avatar">T</div>
       <div className="note-content">
         <p className="note-name">Sonika <span className="note-online" /></p>
@@ -31,7 +31,7 @@ export default function NotePopup() {
         <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="note-btn" onClick={dismiss}>
           Say Hello on WhatsApp
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
