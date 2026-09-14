@@ -1,0 +1,80 @@
+.bottom-tab-bar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .bottom-tab-bar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(250, 247, 242, 0.97);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(194, 24, 91, 0.15);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .tab-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px 0 8px;
+    text-decoration: none;
+    color: #999;
+    transition: color 0.2s ease;
+    position: relative;
+  }
+
+  .tab-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 24px;
+    height: 2px;
+    background: #c2185b;
+    border-radius: 0 0 2px 2px;
+    transition: transform 0.25s ease;
+  }
+
+  .tab-item.active {
+    color: #c2185b;
+  }
+
+  .tab-item.active::before {
+    transform: translateX(-50%) scaleX(1);
+  }
+
+  .tab-icon {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tab-icon svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .tab-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  /* Push page content up so it doesn't hide behind the tab bar */
+  body {
+    padding-bottom: calc(64px + env(safe-area-inset-bottom));
+  }
+}
