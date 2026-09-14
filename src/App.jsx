@@ -8,6 +8,7 @@ import Loader      from "./components/Loader/Loader";
 import BackToTop   from "./components/BackToTop/BackToTop";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
 import CookieBanner from "./components/CookieBanner/CookieBanner";
+import BottomTabBar from "./components/BottomTabBar/BottomTabBar";
 
 import Intro        from "./pages/Intro";
 import Gallery      from "./pages/Gallery";
@@ -38,6 +39,15 @@ function CursorGlow() {
     return () => { window.removeEventListener("mousemove", move); cancelAnimationFrame(raf); };
   }, []);
   return <div id="cursor-glow" ref={glowRef} />;
+}
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const t = setTimeout(() => window.scrollTo({ top: 0, left: 0, behavior: "instant" }), 10);
+    return () => clearTimeout(t);
+  }, [pathname]);
+  return null;
 }
 
 function PageWrapper({ children }) {
@@ -82,6 +92,7 @@ export default function App() {
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <CursorGlow />
+      <ScrollToTop />
       <ProgressBar />
       <Header />
 
@@ -108,6 +119,7 @@ export default function App() {
       <Footer />
       <BackToTop />
       <CookieBanner />
+      <BottomTabBar />
     </div>
   );
 }
