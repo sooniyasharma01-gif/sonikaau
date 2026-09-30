@@ -68,8 +68,8 @@ export default function Availability() {
       <div className="avail-cta reveal" ref={cta}>
         <h3>Check My Current Availability</h3>
         <p>For the most up-to-date availability, reach out directly.</p>
-        <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="contact-btn">
-          Message on WhatsApp
+        <a target="_blank" rel="noopener noreferrer" className="contact-btn">
+          Message on WhatsApp for quick reply
         </a>
       </div>
     </div>
